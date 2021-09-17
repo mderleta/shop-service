@@ -1,4 +1,6 @@
-package pl.derleta.pracadomowa1;
+package pl.derleta.pracadomowa1.services;
+
+import pl.derleta.pracadomowa1.model.Product;
 
 import java.util.List;
 

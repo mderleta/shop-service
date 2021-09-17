@@ -1,11 +1,10 @@
-package pl.derleta.pracadomowa1;
+package pl.derleta.pracadomowa1.services.impl;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
+import pl.derleta.pracadomowa1.model.Product;
 
 @Service
 @Profile("Plus")

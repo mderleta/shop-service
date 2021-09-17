@@ -1,8 +1,8 @@
-package pl.derleta.pracadomowa1;
+package pl.derleta.pracadomowa1.model;
 
 public class Product {
 
-    private  String name;
+    private final String name;
     private double price;
 
     public Product(String name, double price) {

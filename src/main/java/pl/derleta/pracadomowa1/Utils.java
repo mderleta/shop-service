@@ -16,7 +16,7 @@ public class Utils {
     protected static double getRandomNumber(int start, int bound) {
         double doubleValue;
         Random random = new Random();
-        doubleValue = random.nextDouble(50, 300);
+        doubleValue = random.nextDouble(start, bound);
         return doubleValue;
     }
 }

@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
+import pl.derleta.pracadomowa1.model.Product;
+import pl.derleta.pracadomowa1.services.ShopService;
 
 @Component
 public class DataLoader {
@@ -22,7 +24,7 @@ public class DataLoader {
 
     void generateProductsInCart() {
         double tempPrice;
-        String tempName; // todo metoda addTOCart powinna przyjmowac Product wraz z podstawowa cene, ktora bedzie regulowana w odpowiednich serwisach
+        String tempName;
         for (int i = 1; i < 6; i++) {
             tempName = "Product" + i;
             tempPrice = Utils.getRandomNumber(50, 300);
